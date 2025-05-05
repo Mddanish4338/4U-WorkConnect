@@ -1,0 +1,45 @@
+/* Mobile First Approach */
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Adjustments for tablets */
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* Adjustments for small laptops */
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* Adjustments for laptops */
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Adjustments for large screens */
+  }
+  
+  /* Specific adjustments for very small screens */
+  @media only screen and (max-width: 480px) {
+    /* Adjustments for mobile phones */
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero p {
+      font-size: 0.9rem;
+    }
+    
+    .step {
+      min-width: 100%;
+    }
+    
+    .auth-card {
+      padding: 1rem;
+    }
+    
+    .dashboard-header h1 {
+      font-size: 1.5rem;
+    }
+  }

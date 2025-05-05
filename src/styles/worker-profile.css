@@ -1,0 +1,134 @@
+.worker-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .worker-profile h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .worker-profile p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+  
+  .form-section {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .image-upload {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .image-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7f8c8d;
+  }
+  
+  .upload-controls {
+    flex: 1;
+  }
+  
+  .upload-controls input[type="file"] {
+    display: none;
+  }
+  
+  .upload-btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background: #2980b9;
+  }
+  
+  .submit-btn {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background: #219653;
+  }
+  
+  .submit-btn:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .image-upload {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

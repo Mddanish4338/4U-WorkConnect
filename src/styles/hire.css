@@ -1,0 +1,72 @@
+.hire-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .hire-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hire-header h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .hire-header p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+  }
+  
+  .workers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .worker-card-wrapper {
+    position: relative;
+  }
+  
+  .book-now-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .worker-card-wrapper:hover .book-now-btn {
+    opacity: 1;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #219653;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .book-now-btn {
+      opacity: 1;
+      position: static;
+      transform: none;
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+  }
